@@ -5,4 +5,4 @@ function destructivelyAddElementToBeginningOfArray (chocolateBars, mars) {chocol
 return chocolateBars};
 function addElementToEndOfArray (chocolateBars, hersheys) {return [...chocolateBars, hersheys]};
 function destructivelyAddElementToEndOfArray (chocolateBars, hersheys) {return chocolateBars.push(mars)};
-function accessElementInArray (array, index) {return array[index]};
+function accessElementInArray (chocolateBars, 1) {return chocolateBars[1]};
