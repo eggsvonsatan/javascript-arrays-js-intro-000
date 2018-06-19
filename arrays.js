@@ -6,3 +6,4 @@ return chocolateBars};
 function addElementToEndOfArray (chocolateBars, hersheys) {return [...chocolateBars, hersheys]};
 function destructivelyAddElementToEndOfArray (chocolateBars, hersheys) {return chocolateBars.push(mars)};
 function accessElementInArray (array, index) {return array[index]};
+function destructivelyRemoveElementFromBeginningOfArray (chocolateBars) {chocolateBars.shift()};
