@@ -4,7 +4,7 @@ function addElementToBeginningOfArray (chocolateBars, mars) {return [mars, ...ch
 function destructivelyAddElementToBeginningOfArray (chocolateBars, mars) {chocolateBars.unshift(mars);
 return chocolateBars};
 function addElementToEndOfArray (chocolateBars, mars) {return [...chocolateBars, mars]};
-function destructivelyAddElementToEndOfArray (chocolateBars, mars) {return chocolateBars.push(mars)};
+function destructivelyAddElementToEndOfArray (chocolateBars, mars) {chocolateBars.push(mars); return chocolateBars};
 function accessElementInArray (array, index) {return array[index]};
 function destructivelyRemoveElementFromBeginningOfArray (chocolateBars) {return chocolateBars.shift()};
 function removeElementFromBeginningOfArray (chocolateBars) {return chocolateBars.slice(0)};
